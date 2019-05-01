@@ -11,7 +11,9 @@
         </xsd:appinfo>
     </xsd:annotation>
 
+    <!--Define class name -->
     <xsd:complexType name="Product">
+        <!-- Class Properties -->
         <xsd:sequence>
             <xsd:element name="productId" type="xsd:integer"/>
             <xsd:element name="productDescription" type="xsd:string"/>
